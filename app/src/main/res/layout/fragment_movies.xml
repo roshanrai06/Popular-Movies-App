@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.roshan.popularmovies.ui.widget.MultiSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/multi_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.roshan.popularmovies.ui.widget.BetterViewAnimator
+        android:id="@+id/movies_animator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@android:anim/fade_in"
+        android:outAnimation="@android:anim/fade_out">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/movies_recycler_view"
+            style="@style/CollectionView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_movie" />
+
+        <include layout="@layout/partial_view_loading" />
+
+        <com.roshan.popularmovies.ui.widget.AnimatorStateView
+            android:id="@+id/view_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:messageImage="@drawable/egg_error"
+            app:messageText="@string/view_error_message" />
+
+        <com.roshan.popularmovies.ui.widget.AnimatorStateView
+            android:id="@+id/view_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:messageImage="@drawable/egg_empty"
+            app:messageText="@string/favored_empty_message" />
+
+    </com.roshan.popularmovies.ui.widget.BetterViewAnimator>
+
+</com.roshan.popularmovies.ui.widget.MultiSwipeRefreshLayout>
