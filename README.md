@@ -52,7 +52,7 @@ You must provide your own API key in order to build the app. When you get it, ju
 
 ## License
 
-    Copyright 2015 Emin Yahyayev
+    Copyright 2016 Roshan Rai
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
