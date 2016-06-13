@@ -1,21 +1,43 @@
-# PopularMoviesApp_Nanodegree
-Full app with Tablet UI support
+# Popular Movies
 
-This app made for Android Nanodegree Program:
+Here is a fully functional and colorful android app which I made from scratch for Android Developer Nanodegree program. This app reveals the power of adaptive UI both for phone and tablet devices.
 
-Home screen to show the popular movies from themoviedb.org API. Movie Details screen to show the details of any selected movie Settings screen to allow the user to change the sorting settings. Version
+Popular Movies was highly evaluated by certified Udacity code reviewer and was graded as "Exceeds Specifications".
 
-1.0.0
+Features
 
-Libs
+With the app, you can:
 
-Picasso - powerful image downloading and caching library for Android.
+Discover the most popular, the most rated or the highest rated movies
+Save favorite movies locally to view them even when offline
+Watch trailers
+Read reviews
+How to Work with the Source
 
+This app uses The Movie Database API to retrieve movies. You must provide your own API key in order to build the app. When you get it, just paste it to:  app/build.gradle 
 
+Screens
 
+screen
+
+screen
+
+screen
+
+screen
+
+Libraries
+
+ButterKnife
+Dagger
 Retrofit
+SQLBrite
+RxJava
+RxAndroid
+Glide
+GlidePalette
+Android-ObservableScrollView
+Gradle Retrolambda Plugin
+Android Developer Nanodegree
 
 
-
-
-Getting the movie's trailers and reviews Storing the movies on a database using SQLite. Using content providers to getting the data from the database Implementing Material Design
