@@ -23,7 +23,7 @@ You must provide your own API key in order to build the app. When you get it, ju
 
 ## Screens
 
-![screen](../master/art/phone_1.png)
+![screen](../master/art/phone-movies.png)
 
 ![screen](../master/art/phone_2.png)
 
